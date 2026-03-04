@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Product Owner",
+    "company": "Sngular @ Inditex",
+    "period": "Oct 2025 - Presente",
+    "achievements": [
+      "Liderazgo de aplicaciones estratégicas para la transformación digital de Inditex",
+      "Gestión de backlog de productos internos usados por 1K+ usuarios diarios",
+      "Coordinación con equipos de desarrollo en remoto y on-site",
+      "Implementación de métricas de producto",
+      "Implantación de mejoras que incrementaron la productividad de los empleados en un 30%"
+    ]
+  },
+  {
+    "title": "Business Product Owner",
+    "company": "Alten @ Inditex",
+    "period": "Aug 2022 - Sept 2025",
+    "achievements": [
+      "Gestión end-to-end de 3 proyectos estratégicos simultáneos",
+      "Implementación de metodología híbrida Agile-PMBOK",
+      "Delivery con 95% on-time y 100% satisfacción del cliente",
+      "Coordinación con stakeholders de 8 países diferentes"
+    ]
+  },
+  {
+    "title": "Product Team Lead + Product Owner",
+    "company": "Windelivery by Glovo",
+    "period": "2019 - 2021",
+    "achievements": [
+      "Desarrollo full-stack de aplicaciones empresariales",
+      "Participación activa en ceremonias ágiles y refinamiento",
+      "Migración de sistemas legacy a arquitecturas cloud",
+      "Automatización de procesos que ahorraron 100+ horas/mes/empleado",
+      "Colaboración estrecha con desarrolladores y stakeholders para iterar rápidamente"
+    ]
+  }
+]

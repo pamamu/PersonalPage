@@ -1,0 +1,16 @@
+{
+  "name": "Pablo Macías",
+  "role": "Product Owner & Project Manager",
+  "tagline": "Agile | PMBOK | Power BI",
+  "location": "A Coruña, España",
+  "bio": [
+    "👋 Soy Pablo, un Product Owner y Project Manager de 29 años basado en <strong>A Coruña, España</strong>. Mi trayectoria comenzó como ingeniero de software, lo que me ha dado una comprensión profunda de los aspectos técnicos del desarrollo de productos digitales.",
+    "💼 Actualmente combino mi pasión por la tecnología con metodologías ágiles y PMBOK para liderar equipos multidisciplinares y entregar productos que generan valor real para el negocio y los usuarios. Me especializo en la gestión de proyectos complejos, análisis de datos y optimización de procesos.",
+    "🏃‍♂️ Fuera del trabajo, soy un apasionado del fitness y el pádel. Creo firmemente que mantener un equilibrio entre cuerpo y mente es esencial para el rendimiento profesional. Esta filosofía también la aplico en mi trabajo: iteración continua, mejora constante y trabajo en equipo."
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/pablo-macias/",
+    "github": "https://github.com/pamamu",
+    "email": "hola@pablomaciasmu.com"
+  }
+}

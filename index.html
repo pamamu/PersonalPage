@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profesional de Product Owner & Project Manager en A Coruña, España. Especializado en Agile, PMBOK y análisis de datos con Power BI.">
+    <meta name="keywords" content="Product Owner, Project Manager, Agile, Scrum, PMBOK, Power BI, A Coruña, España">
+    <meta name="author" content="Pablo Macías">
+    <meta property="og:title" content="Pablo Macías - Product Owner & Project Manager">
+    <meta property="og:description" content="Portfolio profesional de Product Owner especializado en metodologías Agile y gestión de proyectos">
+    <meta property="og:type" content="website">
+    <title>Pablo Macías - Product Owner & Project Manager | A Coruña</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">PM</a>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-image" aria-label="Profile picture">PM</div>
+            <h1>Pablo Macías</h1>
+            <p class="role">Product Owner & Project Manager</p>
+            <p class="tagline">Agile | PMBOK | Power BI</p>
+            <a href="#contacto" class="cta-button">Trabajemos juntos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="fade-in">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about-content">
+            <div class="bio">
+                <!-- Cargado dinámicamente desde data/profile.json -->
+            </div>
+            <div class="skills-grid">
+                <!-- Cargado dinámicamente desde data/skills.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experiencia" class="fade-in">
+        <h2 class="section-title">Experiencia</h2>
+        <div class="timeline">
+            <!-- Cargado dinámicamente desde data/experience.json -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="fade-in">
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <div class="projects-grid">
+            <!-- Cargado dinámicamente desde data/projects.json -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="fade-in">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-progress">
+            <!-- Cargado dinámicamente desde data/skills.json -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="fade-in">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-content">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre *</label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                    <span class="form-error">Por favor, introduce tu nombre</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                    <span class="form-error">Por favor, introduce un email válido</span>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Asunto *</label>
+                    <input type="text" id="subject" name="subject" required aria-required="true">
+                    <span class="form-error">Por favor, introduce un asunto</span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje *</label>
+                    <textarea id="message" name="message" required aria-required="true"></textarea>
+                    <span class="form-error">Por favor, escribe un mensaje</span>
+                </div>
+                <button type="submit" class="submit-button">Enviar mensaje</button>
+                <div class="success-message">¡Mensaje enviado con éxito! Te responderé pronto.</div>
+            </form>
+            <div class="social-links">
+                <!-- Cargado dinámicamente desde data/profile.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Pablo Macías. Todos los derechos reservados.</p>
+        <p>Hecho con ❤️ en A Coruña, España</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="data-loader.js"></script>
+    <script src="app.js"></script>
+
+    <script src="data-loader.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

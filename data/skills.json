@@ -1,0 +1,38 @@
+{
+  "technical": [
+    { "name": "JIRA", "icon": "📊" },
+    { "name": "Notion", "icon": "📝" },
+    { "name": "Power BI", "icon": "📈" },
+    { "name": "GitHub", "icon": "💻" },
+    { "name": "Scrum", "icon": "🎯" },
+    { "name": "SQL", "icon": "📐" },
+    { "name": "Figma", "icon": "🎨" },
+    { "name": "Miro", "icon": "📱" }
+  ],
+  "progress": [
+    {
+      "name": "Metodologías Agile (Scrum, Kanban)",
+      "percentage": 95
+    },
+    {
+      "name": "PMBOK & Project Management",
+      "percentage": 90
+    },
+    {
+      "name": "Data Visualization (Power BI, Tableau)",
+      "percentage": 85
+    },
+    {
+      "name": "SQL & Database Management",
+      "percentage": 80
+    },
+    {
+      "name": "Product Strategy & Roadmapping",
+      "percentage": 90
+    },
+    {
+      "name": "Stakeholder Management",
+      "percentage": 92
+    }
+  ]
+}
