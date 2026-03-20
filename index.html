@@ -23,6 +23,7 @@
             <ul class="nav-links">
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#educacion">Educación</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -69,6 +70,22 @@
         <h2 class="section-title">Experiencia</h2>
         <div class="timeline">
             <!-- Cargado dinámicamente desde data/experience.json -->
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="educacion" class="fade-in">
+        <h2 class="section-title">Educación</h2>
+        <div class="education-grid">
+            <!-- Cargado dinámicamente desde data/education.json -->
+        </div>
+        <div class="certifications-container">
+            <button id="btnCertifications" class="secondary-button">
+                📜 Ver Certificaciones y Licencias
+            </button>
+            <button id="btnVolunteering" class="secondary-button">
+                🤝 Ver Voluntariado y Becas
+            </button>
         </div>
     </section>
 
@@ -133,6 +150,24 @@
         <div class="modal-content">
             <button class="modal-close" aria-label="Close modal">&times;</button>
             <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Certifications Modal -->
+    <div class="modal" id="certificationsModal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2 style="margin-bottom: 2rem; color: var(--primary);">Certificaciones y Licencias</h2>
+            <div id="certificationsBody" class="certifications-list"></div>
+        </div>
+    </div>
+
+    <!-- Volunteering Modal -->
+    <div class="modal" id="volunteeringModal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2 style="margin-bottom: 2rem; color: var(--primary);">Voluntariado y Becas</h2>
+            <div id="volunteeringBody" class="volunteering-list"></div>
         </div>
     </div>
 

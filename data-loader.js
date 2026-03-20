@@ -5,20 +5,26 @@ class PortfolioLoader {
             profile: null,
             skills: null,
             experience: null,
+            education: null,
+            certifications: null,
+            volunteering: null,
             projects: null
         };
     }
 
     async loadAllData() {
         try {
-            const [profile, skills, experience, projects] = await Promise.all([
+            const [profile, skills, experience, education, certifications, volunteering, projects] = await Promise.all([
                 fetch('data/profile.json').then(r => r.json()),
                 fetch('data/skills.json').then(r => r.json()),
                 fetch('data/experience.json').then(r => r.json()),
+                fetch('data/education.json').then(r => r.json()),
+                fetch('data/certifications.json').then(r => r.json()),
+                fetch('data/volunteering.json').then(r => r.json()),
                 fetch('data/projects.json').then(r => r.json())
             ]);
 
-            this.data = { profile, skills, experience, projects };
+            this.data = { profile, skills, experience, education, certifications, volunteering, projects };
             this.renderAll();
         } catch (error) {
             console.error('Error loading data:', error);
@@ -30,6 +36,9 @@ class PortfolioLoader {
         this.renderAbout();
         this.renderSkillsGrid();
         this.renderExperience();
+        this.renderEducation();
+        this.renderCertifications();
+        this.renderVolunteering();
         this.renderProjects();
         this.renderSkillsProgress();
         this.renderSocialLinks();
@@ -90,6 +99,103 @@ class PortfolioLoader {
                 </div>
             </div>
         `).join('');
+    }
+
+    renderEducation() {
+        const { education } = this.data;
+        if (!education) return;
+
+        const educationGrid = document.querySelector('.education-grid');
+        educationGrid.innerHTML = education.map(edu => `
+            <div class="education-card">
+                <h3>${edu.degree}</h3>
+                <p class="institution">${edu.institution}</p>
+                <p class="grade">${edu.grade}</p>
+                <p>${edu.description}</p>
+            </div>
+        `).join('');
+    }
+
+    renderCertifications() {
+        const { certifications } = this.data;
+        if (!certifications) return;
+
+        const btn = document.getElementById('btnCertifications');
+        const modal = document.getElementById('certificationsModal');
+        const modalBody = document.getElementById('certificationsBody');
+        const closeBtn = modal.querySelector('.modal-close');
+
+        // Render content inside modal
+        modalBody.innerHTML = certifications.map(cert => `
+            <div class="certification-item">
+                <div class="cert-icon">🏅</div>
+                <div class="cert-info">
+                    <h4>${cert.name}</h4>
+                    <p>${cert.issuer}</p>
+                </div>
+            </div>
+        `).join('');
+
+        // Event listeners
+        btn.addEventListener('click', () => {
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeBtn.addEventListener('click', () => {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Close on click outside
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+    }
+
+    renderVolunteering() {
+        const { volunteering } = this.data;
+        if (!volunteering) return;
+
+        const btn = document.getElementById('btnVolunteering');
+        const modal = document.getElementById('volunteeringModal');
+        const modalBody = document.getElementById('volunteeringBody');
+        const closeBtn = modal.querySelector('.modal-close');
+
+        // Render content inside modal
+        modalBody.innerHTML = volunteering.map(vol => `
+            <div class="volunteering-item">
+                <div class="vol-icon">🤝</div>
+                <div class="vol-info">
+                    <h4>${vol.role}</h4>
+                    <p class="organization">${vol.organization}</p>
+                    <p class="period">${vol.period}</p>
+                    <p>${vol.description}</p>
+                </div>
+            </div>
+        `).join('');
+
+        // Event listeners
+        btn.addEventListener('click', () => {
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeBtn.addEventListener('click', () => {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Close on click outside
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
     }
 
     renderProjects() {

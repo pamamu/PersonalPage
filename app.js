@@ -88,19 +88,15 @@ const successMessage = document.querySelector('.success-message');
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    
     let isValid = true;
     const formGroups = contactForm.querySelectorAll('.form-group');
-    
     formGroups.forEach(group => {
         const input = group.querySelector('input, textarea');
         group.classList.remove('error');
-        
         if (!input.value.trim()) {
             group.classList.add('error');
             isValid = false;
         }
-        
         if (input.type === 'email') {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(input.value)) {
@@ -109,23 +105,16 @@ contactForm.addEventListener('submit', (e) => {
             }
         }
     });
-
     if (isValid) {
-        // Simulate form submission
-        const submitButton = contactForm.querySelector('.submit-button');
-        submitButton.disabled = true;
-        submitButton.textContent = 'Enviando...';
-
-        setTimeout(() => {
-            contactForm.reset();
-            successMessage.classList.add('show');
-            submitButton.disabled = false;
-            submitButton.textContent = 'Enviar mensaje';
-
-            setTimeout(() => {
-                successMessage.classList.remove('show');
-            }, 5000);
-        }, 1000);
+        // Construir mailto
+        const name = contactForm.querySelector('#name').value.trim();
+        const email = contactForm.querySelector('#email').value.trim();
+        const subject = contactForm.querySelector('#subject').value.trim();
+        const message = contactForm.querySelector('#message').value.trim();
+        const mailto = `mailto:hola@pablomaciasmu.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+            `${message}`
+        )}`;
+        window.location.href = mailto;
     }
 });
 

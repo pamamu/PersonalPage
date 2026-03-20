@@ -1,0 +1,38 @@
+[
+    {
+        "role": "Miembro de Honor + Community Manager + Webmaster",
+        "organization": "Erasmus Student Network (ESN) Extremadura",
+        "period": "Septiembre 2017 - Presente",
+        "description": "Organización de eventos culturales, gestión de redes sociales y mantenimiento de la web para la comunidad Erasmus en Extremadura."
+    },
+    {
+        "role": "Becario de Colaboración",
+        "organization": "Biblioteca Central de Cáceres",
+        "period": "Septiembre 2017 - Julio 2018",
+        "description": "Administración de servidores con Xen, implantación de dispositivos IoT en bibliotecas y creación de aplicaciones con ScriptCase."
+    },
+    {
+        "role": "Becario en Desarrollo de Aplicaciones",
+        "organization": "Sngular",
+        "period": "Julio 2017 - Agosto 2017",
+        "description": "Trabajo en aplicaciones Android: AppCollaborator (Decathlon) y proyectos de investigación I+D+I (INENCO e INQUOSA)."
+    },
+    {
+        "role": "Colaborador",
+        "organization": "Universidad de Extremadura",
+        "period": "Octubre 2015 - Septiembre 2017",
+        "description": "Colaborador en la \"Noche Europea de los Investigadores 2017\", \"Noche Europea de los Investigadores 2016\", \"Desayuna con la ciencia. Curso 2014-2015\", \"Jornadas de Puertas Abiertas UEx 2016\" y \"Olimpiadas de Informática en Extremadura 2015\"."
+    },
+    {
+        "role": "Estudiante Colaborador",
+        "organization": "Smart Open Lab - Universidad de Extremadura",
+        "period": "Octubre 2014 - Mayo 2016",
+        "description": "Creación y consolidación de un Fab Lab oficial de la red internacional Fab Foundation, dedicado a la fabricación digital, prototipado y apoyo a proyectos estudiantiles, ampliando progresivamente su equipamiento y fomentando un espacio de innovación colaborativa."
+    },
+    {
+        "role": "Monitor de Ocio y Tiempo Libre",
+        "organization": "Enclave'97",
+        "period": "Septiembre 2011 - Julio 2014",
+        "description": "Organización y dinamización de actividades de ocio y tiempo libre para niños y jóvenes, promoviendo valores de convivencia, respeto y desarrollo personal a través de campamentos, talleres y eventos educativos."
+    }
+]

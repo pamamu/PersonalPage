@@ -1,39 +1,5 @@
 [
-  {
-    "id": "er-modeling",
-    "title": "Sistema de Modelado ER",
-    "icon": "📊",
-    "summary": "Desarrollo de herramienta interna para modelado de bases de datos relacionales, mejorando la eficiencia del equipo de arquitectura en un 50%.",
-    "tags": ["SQL", "Database Design", "UML"],
-    "description": "Lideré el desarrollo de una herramienta interna de modelado de bases de datos relacionales que transformó la forma en que nuestro equipo de arquitectura diseñaba sistemas.",
-    "details": [
-      "Reducción del 50% en tiempo de diseño de esquemas",
-      "Interfaz drag-and-drop intuitiva",
-      "Generación automática de scripts SQL",
-      "Versionado y colaboración en tiempo real",
-      "Integración con sistemas de documentación"
-    ],
-    "tech": ["SQL", "Database Design", "UML", "PostgreSQL", "MySQL"],
-    "impact": "El equipo de arquitectura pasó de 2 semanas a 1 semana en fase de diseño, permitiendo iteraciones más rápidas y mejor calidad."
-  },
-  {
-    "id": "dashboards",
-    "title": "Dashboards Power BI",
-    "icon": "📈",
-    "summary": "Creación de suite de dashboards ejecutivos que centralizaron métricas clave de negocio, reduciendo tiempo de reporting en 70%.",
-    "tags": ["Power BI", "DAX", "Data Viz"],
-    "description": "Diseñé e implementé una suite completa de dashboards ejecutivos que centralizaron todas las métricas clave del negocio en una sola plataforma.",
-    "details": [
-      "Dashboards interactivos para 5 áreas de negocio",
-      "Actualización automática de datos en tiempo real",
-      "KPIs personalizables por rol y departamento",
-      "Alertas automatizadas sobre umbrales críticos",
-      "Acceso móvil para toma de decisiones remota"
-    ],
-    "tech": ["Power BI", "DAX", "Data Visualization", "SQL Server", "Azure"],
-    "impact": "Reducción del 70% en tiempo dedicado a reporting manual, liberando 120+ horas mensuales del equipo de análisis."
-  },
-  {
+    {
     "id": "consultoria",
     "title": "Consultoría Agile",
     "icon": "💼",

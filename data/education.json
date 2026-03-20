@@ -1,0 +1,25 @@
+[    {
+        "degree": "Global MBA en IA & Data Science + Digital Business",
+        "institution": "ENEB - Escuela de Negocios Europea de Barcelona",
+        "grade": "En Progreso",
+        "description": "Formación ejecutiva integral en analítica de datos, estrategias de Business Intelligence y liderazgo en negocios digitales."
+    },
+    {
+        "degree": "Máster Oficial en Ingeniería Informática",
+        "institution": "Universidad de Sevilla",
+        "grade": "En Progreso",
+        "description": "Especialización avanzada en arquitectura de software, gestión de proyectos tecnológicos y dirección de sistemas de información."
+    },
+    {
+        "degree": "Business Expert - FutureLeaders",
+        "institution": "ThePowerMBA",
+        "grade": "10+",
+        "description": "Programa intensivo de administración y gestión de empresas, enfocado en estrategia de negocio, marketing y finanzas."
+    },
+    {
+        "degree": "Grado en Ingeniería Informática",
+        "institution": "Universidad de Extremadura",
+        "grade": "7,55",
+        "description": "Formación técnica sólida en desarrollo de software, algoritmia y diseño de sistemas, con mención en Ingeniería del Software."
+    }
+]

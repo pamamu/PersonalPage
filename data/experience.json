@@ -4,34 +4,54 @@
     "company": "Sngular @ Inditex",
     "period": "Oct 2025 - Presente",
     "achievements": [
-      "Liderazgo de aplicaciones estratégicas para la transformación digital de Inditex",
-      "Gestión de backlog de productos internos usados por 1K+ usuarios diarios",
-      "Coordinación con equipos de desarrollo en remoto y on-site",
-      "Implementación de métricas de producto",
-      "Implantación de mejoras que incrementaron la productividad de los empleados en un 30%"
+      "Responsable de producto (Product Owner / Expert) impulsando soluciones de software innovadoras.",
+      "Liderazgo en la gestión de proyectos, asegurando alineación estratégica y entrega de valor.",
+  "Motivación y desarrollo de equipos técnicos para maximizar el rendimiento y la colaboración.",
+  "Integración y utilización de soluciones de Inteligencia Artificial (IA) en procesos clave del producto y en la toma de decisiones diaria, mejorando la eficiencia y la innovación en el equipo."
     ]
   },
   {
     "title": "Business Product Owner",
-    "company": "Alten @ Inditex",
-    "period": "Aug 2022 - Sept 2025",
+    "company": "ALTEN SPAIN @ Inditex",
+    "period": "Ago 2022 - Feb 2025",
     "achievements": [
-      "Gestión end-to-end de 3 proyectos estratégicos simultáneos",
-      "Implementación de metodología híbrida Agile-PMBOK",
-      "Delivery con 95% on-time y 100% satisfacción del cliente",
-      "Coordinación con stakeholders de 8 países diferentes"
+      "Consultoría estratégica para Inditex, liderando iniciativas de transformación digital como Jefe de Proyecto.",
+      "Product Owner de aplicaciones críticas: 'Gestión de Promociones' (herramienta global multimarca) e 'Inspección de Calidad' (web app utilizada en 7 países).",
+      "Gestión integral del ciclo de vida del producto: desde la visión y roadmap hasta el delivery final.",
+      "Coordinación de equipos multidisciplinares internacionales (Devs, UX/UI, QA) asegurando entregas on-time.",
+      "Puente entre negocio y tecnología: traducción de necesidades complejas en historias de usuario ejecutables.",
+      "Implementación de marcos ágiles para optimizar procesos y garantizar mejora continua en entornos cambiantes."
     ]
   },
   {
-    "title": "Product Team Lead + Product Owner",
-    "company": "Windelivery by Glovo",
-    "period": "2019 - 2021",
+    "title": "Product Team Lead - Squad Innovación",
+    "company": "HOMERIA by Glovo",
+    "period": "Abr 2021 - Jul 2022",
     "achievements": [
-      "Desarrollo full-stack de aplicaciones empresariales",
-      "Participación activa en ceremonias ágiles y refinamiento",
-      "Migración de sistemas legacy a arquitecturas cloud",
-      "Automatización de procesos que ahorraron 100+ horas/mes/empleado",
-      "Colaboración estrecha con desarrolladores y stakeholders para iterar rápidamente"
+      "Liderazgo del Squad 'Windelivery', gestionando la visión de producto y actuando como 'Mini-CEO' interno.",
+      "Gestión directa de un equipo de 5 personas utilizando metodología PEAK basada en OKRs.",
+      "Definición estratégica del roadmap de producto centrada en feedback de cliente y análisis de mercado.",
+      "Interlocución directa con nivel directivo para alinear el desarrollo de producto con la estrategia corporativa."
+    ]
+  },
+  {
+    "title": "Product Owner - Integraciones QSR",
+    "company": "HOMERIA by Glovo",
+    "period": "Oct 2019 - Mar 2021",
+    "achievements": [
+      "Responsable de integraciones clave con partners QSR (Uber Eats, Glovo, Deliveroo, JustEat, NCR, Oracle).",
+      "Diseño y planificación de soluciones de integración complejas en entorno Cloud (AWS, Serverless, Python, Node.js).",
+      "Gestión de comunicación técnica con terceros y planificación detallada de desarrollos software."
+    ]
+  },
+  {
+    "title": "Scrum Master & Product Owner",
+    "company": "HOMERIA / Burger King",
+    "period": "Jul 2018 - Sep 2019",
+    "achievements": [
+      "Gestión ágil de proyectos QSR para Burger King España y Portugal (Angular, NodeJS, AWS).",
+      "Liderazgo en la integración de AmazonPay: +13,000 pagos procesados y arquitectura Serverless coste-eficiente (<1€/mes).",
+      "Facilitación de metodologías ágiles y coordinación entre cliente final y partners tecnológicos."
     ]
   }
 ]
